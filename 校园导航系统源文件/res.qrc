@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>StartInterface.png</file>
+        <file>Map.jpg</file>
+        <file>MapResource.map2</file>
+        <file>Voice.MP3</file>
+    </qresource>
+</RCC>

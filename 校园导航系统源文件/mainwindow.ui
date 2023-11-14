@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>510</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>校园导航系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="BeginpushButton">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>250</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#BeginpushButton
+{
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>开始使用</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>621</width>
+      <height>174</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文行楷</family>
+      <pointsize>20</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label
+{
+	image: url(:/images/StartInterface.png);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#5500ff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#5500ff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; color:#5500ff;&quot;&gt;南京邮电大学校园导航系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>630</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="login">
+    <property name="title">
+     <string>管理员登陆</string>
+    </property>
+    <addaction name="actionfr"/>
+   </widget>
+   <widget class="QMenu" name="info">
+    <property name="title">
+     <string>版本信息</string>
+    </property>
+    <addaction name="actionaada"/>
+    <addaction name="actionhj"/>
+   </widget>
+   <widget class="QMenu" name="AboutUs">
+    <property name="title">
+     <string>关于我们</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionka"/>
+    <addaction name="separator"/>
+    <addaction name="actionmi"/>
+   </widget>
+   <widget class="QMenu" name="help">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionkj"/>
+   </widget>
+   <addaction name="login"/>
+   <addaction name="info"/>
+   <addaction name="AboutUs"/>
+   <addaction name="help"/>
+  </widget>
+  <action name="actionajia">
+   <property name="text">
+    <string>进入登陆页面</string>
+   </property>
+  </action>
+  <action name="actionfr">
+   <property name="text">
+    <string>登入</string>
+   </property>
+   <property name="iconText">
+    <string>登入</string>
+   </property>
+  </action>
+  <action name="actionka">
+   <property name="text">
+    <string>开发人员</string>
+   </property>
+   <property name="iconText">
+    <string>开发人员</string>
+   </property>
+  </action>
+  <action name="actionmi">
+   <property name="text">
+    <string>鸣谢人员</string>
+   </property>
+  </action>
+  <action name="actionaada">
+   <property name="text">
+    <string>2023.10.30</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionhj">
+   <property name="text">
+    <string>使用须知</string>
+   </property>
+   <property name="iconText">
+    <string>使用须知</string>
+   </property>
+  </action>
+  <action name="actionkj">
+   <property name="text">
+    <string>联系我们</string>
+   </property>
+  </action>
+  <action name="actionjkl">
+   <property name="text">
+    <string>使用体验</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
